@@ -1,11 +1,12 @@
 # Learn Lume v2
 
 ## 本リポジトリの目的
-Freshで構築中のNext Denobata Reportだが、Lumeのほうがドキュメントサイトとしての機能を有しているので、こちらで構築できないかLume v2の勉強も合わせて確認したい
+~~Freshで構築中のNext Denobata Reportだが、Lumeのほうがドキュメントサイトとしての機能を有しているので、こちらで構築できないかLume v2の勉強も合わせて確認したい~~  
+検索フォームもあるので、Freshでの開発を継続し、こちらの確認は途中で終える
 
 ## 本リポジトリの達成目標
-- [ ] PreactのみでUI表示
-- [ ] Tailwind CSSのエディタ補完の有効化
+- [x] PreactのみでUI表示
+- [x] Tailwind CSSのエディタ補完の有効化
 - [ ] Deno Deployにアップ
 - [ ] トップ画面の移植
 - [ ] 記事画面の移植

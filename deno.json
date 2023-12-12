@@ -1,0 +1,22 @@
+{
+  "tasks": {
+    "lume": "echo \"import 'lume/cli.ts'\" | deno run --unstable -A -",
+    "build": "deno task lume",
+    "serve": "deno task lume -s"
+  },
+  "imports": {
+    "~/layouts/": "./src/_includes/layouts/",
+    "~/components/": "./src/_includes/components/",
+    "~/_data.ts": "./_data.ts",
+    "lume/": "https://deno.land/x/lume@v2.0.1/",
+    "icons/": "https://deno.land/x/tabler_icons_tsx@0.0.2/tsx/"
+  },
+  "compilerOptions": {
+    "jsx": "precompile",
+    "jsxImportSource": "npm:preact",
+    "types": [
+      "lume/types.ts"
+    ]
+  },
+  "exclude": ["dist", "README.md", "src/report"]
+}
